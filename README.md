@@ -28,7 +28,7 @@ java -jar out/artifacts/MyReasonerAbduction.jar -k example.owl -o
 -k knowledge base path
 
 The abductive reasoning part is performed using the executable file (MyReasonerAbduction.jar) 
-with a command \textit{java -jar MyReasonerAbduction.jar knowledgebase.owl observation.owl result.txt}. 
+with a command java -jar MyReasonerAbduction.jar knowledgebase.owl. 
 
 
 ## Reference
