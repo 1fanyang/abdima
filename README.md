@@ -32,4 +32,5 @@ with a command \textit{java -jar MyReasonerAbduction.jar knowledgebase.owl obser
 
 ## Reference
 [1] Y. Yang, J. Atif and I. Bloch, *Abductive reasoning using tableau methods for high-level image interpretation*,  KI2015
+
 [2] Y. Yang, J. Atif, I. Bloch, *Raisonnement abductif en logique de description exploitant les domaines concrets spatiaux pour l'interprétation d'images*, RIA 2017
