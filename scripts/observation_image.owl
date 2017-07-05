@@ -1,0 +1,130 @@
+<?xml version=".0"?> 
+< !DOCTYPE Ontology[ 
+    <!ENTITY xsd    "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml    "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs    "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf    "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+ <Ontology xmlns = \http://www.w3.org/2002/07/owl#" 
+    xmlns = "http://www.w3.org/2002/07/owl#" 
+    xml:base = "http://www.semanticweb.org/yiyang/ontologies/2017/5/observation" 
+    xmlns:rdfs = "http://www.w3.org/2000/01/rdf-schema#" 
+    xmlns:xsd = "http://www.w3.org/2001/XMLSchema#" 
+    xmlns:rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:xml = "http://www.w3.org/XML/1998/namespace" 
+    ontologyIRI = "http://www.semanticweb.org/yiyang/ontologies/2017/5/observation" 
+    <Prefix name="" IRI ="http://www.w3.org/2002/07/owl#" 
+    <Prefix name="owl" IRI ="http://www.w3.org/2002/07/owl#" 
+    <Prefix name="rdf" IRI ="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    <Prefix name="xsd" IRI ="http://www.w3.org/2001/XMLSchema#" 
+    <Prefix name="rdfs" IRI ="http://www.w3.org/2000/01/rdf-schema#" 
+< Declaration 
+ <Class IRI="#Brain" /> 
+ </Declaration>
+< ClassAssertion 
+ <Class IRI="Brain"> 
+ <NamedIndividual IRI="#brain" /> 
+ </ClassAssertion>
+<AnnotationAssertion> 
+ <AnnotationProperty abbreviatedIRI="dfs:comment"/> 
+ <IRI>#brain</IRI> 
+ <Literal> datatypeIRI="&rdf;PlainLiteral"> brain.png  </Literal>
+< Declaration 
+ <Class IRI="#Tumor" /> 
+ </Declaration>
+< ClassAssertion 
+ <Class IRI="Tumor"> 
+ <NamedIndividual IRI="#tumor" /> 
+ </ClassAssertion>
+<AnnotationAssertion> 
+ <AnnotationProperty abbreviatedIRI="dfs:comment"/> 
+ <IRI>#tumor</IRI> 
+ <Literal> datatypeIRI="&rdf;PlainLiteral"> tumor.png  </Literal>
+< Declaration 
+ <Class IRI="#LeftLateralVentricle" /> 
+ </Declaration>
+< ClassAssertion 
+ <Class IRI="LeftLateralVentricle"> 
+ <NamedIndividual IRI="#llv" /> 
+ </ClassAssertion>
+<AnnotationAssertion> 
+ <AnnotationProperty abbreviatedIRI="dfs:comment"/> 
+ <IRI>#llv</IRI> 
+ <Literal> datatypeIRI="&rdf;PlainLiteral"> llv.png  </Literal>
+< Declaration 
+ <Class IRI="#RightLateralVentricle" /> 
+ </Declaration>
+< ClassAssertion 
+ <Class IRI="RightLateralVentricle"> 
+ <NamedIndividual IRI="#rlv" /> 
+ </ClassAssertion>
+<AnnotationAssertion> 
+ <AnnotationProperty abbreviatedIRI="dfs:comment"/> 
+ <IRI>#rlv</IRI> 
+ <Literal> datatypeIRI="&rdf;PlainLiteral"> rlv.png  </Literal>
+< Declaration 
+ <Class IRI="#LeftCaudNucleus" /> 
+ </Declaration>
+< ClassAssertion 
+ <Class IRI="LeftCaudNucleus"> 
+ <NamedIndividual IRI="#lcn" /> 
+ </ClassAssertion>
+<AnnotationAssertion> 
+ <AnnotationProperty abbreviatedIRI="dfs:comment"/> 
+ <IRI>#lcn</IRI> 
+ <Literal> datatypeIRI="&rdf;PlainLiteral"> lcn.png  </Literal>
+< Declaration 
+ <Class IRI="#RightCaudNucleus" /> 
+ </Declaration>
+< ClassAssertion 
+ <Class IRI="RightCaudNucleus"> 
+ <NamedIndividual IRI="#rcn" /> 
+ </ClassAssertion>
+<AnnotationAssertion> 
+ <AnnotationProperty abbreviatedIRI="dfs:comment"/> 
+ <IRI>#rcn</IRI> 
+ <Literal> datatypeIRI="&rdf;PlainLiteral"> rcn.png  </Literal>
+< Declaration 
+ <Class IRI="#LeftPutamen" /> 
+ </Declaration>
+< ClassAssertion 
+ <Class IRI="LeftPutamen"> 
+ <NamedIndividual IRI="#lpu" /> 
+ </ClassAssertion>
+<AnnotationAssertion> 
+ <AnnotationProperty abbreviatedIRI="dfs:comment"/> 
+ <IRI>#lpu</IRI> 
+ <Literal> datatypeIRI="&rdf;PlainLiteral"> lpu.png  </Literal>
+< Declaration 
+ <Class IRI="#RightPutamen" /> 
+ </Declaration>
+< ClassAssertion 
+ <Class IRI="RightPutamen"> 
+ <NamedIndividual IRI="#rpu" /> 
+ </ClassAssertion>
+<AnnotationAssertion> 
+ <AnnotationProperty abbreviatedIRI="dfs:comment"/> 
+ <IRI>#rpu</IRI> 
+ <Literal> datatypeIRI="&rdf;PlainLiteral"> rpu.png  </Literal>
+< Declaration 
+ <Class IRI="#LeftThalamus" /> 
+ </Declaration>
+< ClassAssertion 
+ <Class IRI="LeftThalamus"> 
+ <NamedIndividual IRI="#lth" /> 
+ </ClassAssertion>
+<AnnotationAssertion> 
+ <AnnotationProperty abbreviatedIRI="dfs:comment"/> 
+ <IRI>#lth</IRI> 
+ <Literal> datatypeIRI="&rdf;PlainLiteral"> lth.png  </Literal>
+< Declaration 
+ <Class IRI="#RightThalamus" /> 
+ </Declaration>
+< ClassAssertion 
+ <Class IRI="RightThalamus"> 
+ <NamedIndividual IRI="#rth" /> 
+ </ClassAssertion>
+<AnnotationAssertion> 
+ <AnnotationProperty abbreviatedIRI="dfs:comment"/> 
+ <IRI>#rth</IRI> 
+ <Literal> datatypeIRI="&rdf;PlainLiteral"> rth.png  </Literal>
+</Ontology>
