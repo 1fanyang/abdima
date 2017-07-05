@@ -11,7 +11,7 @@ The work is completed during the PhD and PostDoc stay at Télécom ParisTech, fu
 ## Dependencies
 
 * OwlApi from http://owlapi.sourceforge.net
-* Pellet Reasonser from http://pellet.owldl.com
+* Pellet Reasonser from https://github.com/stardog-union/pellet
 
 ## Input Format
 
