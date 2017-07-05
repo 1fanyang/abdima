@@ -16,6 +16,7 @@ The work is completed during the PhD and PostDoc stay at Télécom ParisTech, fu
 ## Input Format
 
 Both the TBox and the ABox are saved in one single OWL file. The observation is saved as one concept in the ABox.
+The OWL file can be edited using [Protégé](http://protege.stanford.edu).
 
 
 ## Usage
