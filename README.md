@@ -23,7 +23,7 @@ The OWL file can be edited using [Protégé](http://protege.stanford.edu).
 
 Example:
 
-java -jar out/artifacts/MyReasonerAbduction.jar -k example.owl -o
+java -jar out/artifacts/MyReasonerAbduction.jar -k example.owl
 
 -k knowledge base path
 
